@@ -51,6 +51,7 @@ about_content: | # this will include new lines to allow paragraphs
   Hi, my name's Geon
 
 content:
+  ############################################# Education #############################################
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -64,6 +65,7 @@ content:
         caption: 2021 - Present (scheduled in August 2023)
         sub_title: M.S. in Computer Science
 
+  ############################################# Skills #############################################
   - title: Skills # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -88,6 +90,7 @@ content:
         description: |
           Reinforcement Learning, Deep Learning, RestAPI, MQTT
 
+  ############################################# Projects #############################################
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -107,6 +110,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
 
+  ############################################# Experience #############################################
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -122,6 +126,7 @@ content:
             As a master student, I studyed IoT-based smart service. The main research point was RL-based preference learning system in IoT-enriched space; system that captures user's personalized preference from interaction between user and space, and provides user preferable environmental state.
             In addtion, I adopted the mobile service robot as a tool to increase the space intelligence for capturing more accurate user preference.
   
+  ############################################# Publications #############################################
   - title: Publications
     layout: text
     content: | # this will include new lines to allow paragraphs
@@ -139,8 +144,6 @@ content:
       - Knitting
       - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
 
-    # Look at this cool image  
-    # ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
 
 # Footer
 footer_show_references: true
