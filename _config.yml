@@ -70,23 +70,17 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        sub_title: <b>Programming Language</b>
-        # caption: 2017 - 2021
-        # sub_title: B.S. in Computer Science and Biology
+        sub_title: Programming Language
         description: |
           (Proficient) Python, C, SQL, MATLAB, (Experienced) C++, Scala, Kotlin, Java 
 
       - layout: left
         sub_title: Frameworks/Tools
-        # caption: 2017 - 2021
-        # sub_title: B.S. in Computer Science and Biology
         description: |
           (Proficient) PyTorch, Django, ROS2, Git, MongoDB, (Experienced) Docker, Unity, Keras, Tensorflow v2
       
       - layout: left
         sub_title: Techniques
-        # caption: 2017 - 2021
-        # sub_title: B.S. in Computer Science and Biology
         description: |
           Reinforcement Learning, Deep Learning, RestAPI, MQTT
 
@@ -130,21 +124,30 @@ content:
   - title: Publications
     layout: text
     content: | # this will include new lines to allow paragraphs
-      [1] G. Kim, H. Kim, D. Lee, and Y. Kim, “Dqn based indoor thermal control for activity-specific user preference”, in 2022 한국컴퓨터종합학술대회 (KCC2022), 2022. 
+      - G. Kim, H. Kim, D. Lee, and Y. Kim, “Dqn based indoor thermal control for activity-specific user preference”, in 2022 한국컴퓨터종합학술대회 (KCC2022), 2022. 
 
-      [2] S. Han, J. Kim, G. Kim, J. Cho, J. Kim, and S. Yoo, “Preliminary evaluation of path-aware crossover operators for search-based test data generation for autonomous driving”, in 2021 IEEE/ACM 14th International Workshop on Search-Based Software Testing (SBST), 2021.
+      - S. Han, J. Kim, G. Kim, J. Cho, J. Kim, and S. Yoo, “Preliminary evaluation of path-aware crossover operators for search-based test data generation for autonomous driving”, in 2021 IEEE/ACM 14th International Workshop on Search-Based Software Testing (SBST), 2021.
       
-      [3] G. Kim, H. Kim, and D. Lee, “A deep reinforcement learning based approach for user preference learning in a smart space”, in 2021 한국컴퓨터종합학술대회 (KCC2021), 2021
+      - G. Kim, H. Kim, and D. Lee, “A deep reinforcement learning based approach for user preference learning in a smart space”, in 2021 한국컴퓨터종합학술대회 (KCC2021), 2021
 
-
-  - title: A Little More About Me
+  - title: Scholarships and Awards
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+      -  KCC2021 학부생/주니어논문경진대회, 사물인터넷 부문, 우수상, 2021
+  
+  - title: Extracurricular Activities
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      - KAIST Robotics Club - Microrobot Research (MR), 2017 - 2021
+
+  # - title: A Little More About Me
+  #   layout: text
+  #   content: | # this will include new lines to allow paragraphs
+  #     Alongside my interests in networks and software engineering some of my other interests and hobbies are:
+  #     - Rock climbing
+  #     - Gaming
+  #     - Knitting
+  #     - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
 
 
 # Footer
