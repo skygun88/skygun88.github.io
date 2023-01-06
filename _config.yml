@@ -112,7 +112,7 @@ content:
         title: CDSN Lab
         link: http://cds.kaist.ac.kr/
         sub_title: M.S. Program 
-        caption: September 2021 - Present
+        caption: 2021 - Present
         description: | # this will include new lines to allow paragraphs
             As a master student, I studyed IoT-based smart service. The main research point was RL-based preference learning system in IoT-enriched space; system that captures user's personalized preference from interaction between user and space, and provides user preferable environmental state.
             In addtion, I adopted the mobile service robot as a tool to increase the space intelligence for capturing more accurate user preference.
@@ -138,7 +138,7 @@ content:
         title: Domestic Conferences
         description: |
           - G. Kim, H. Kim, D. Lee, and Y. Kim, “Dqn based indoor thermal control for activity-specific user preference”, in 2022 한국컴퓨터종합학술대회 (KCC2022), 2022. 
-          
+
           - G. Kim, H. Kim, and D. Lee, “A deep reinforcement learning based approach for user preference learning in a smart space”, in 2021 한국컴퓨터종합학술대회 (KCC2021), 2021
 
   - title: Scholarships and Awards
