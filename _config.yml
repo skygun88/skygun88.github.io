@@ -63,8 +63,32 @@ content:
 
       - layout: top-middle
         title: Korea Advanced Institute of Science and Technology (KAIST)
-        caption: 2021 - Progressing (Graduation scheduled in August 2023)
+        caption: 2021 - Present (scheduled in August 2023)
         sub_title: M.S. in Computer Science
+
+  - title: Skills # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Programming Language
+        # caption: 2017 - 2021
+        # sub_title: B.S. in Computer Science and Biology
+        description: |
+          (Proficient) Python, C, SQL, MATLAB, (Experienced) C++, Scala, Kotlin, Java 
+
+      - layout: left
+        title: Frameworks/Tools
+        # caption: 2017 - 2021
+        # sub_title: B.S. in Computer Science and Biology
+        description: |
+          (Proficient) PyTorch, Django, ROS2, Git, MongoDB, (Experienced) Docker, Unity, Keras, Tensorflow v2
+      
+      - layout: left
+        title: Techniques
+        # caption: 2017 - 2021
+        # sub_title: B.S. in Computer Science and Biology
+        description: |
+          Reinforcement Learning, Deep Learning, RestAPI, MQTT
 
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
