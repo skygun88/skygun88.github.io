@@ -126,12 +126,12 @@ content:
             I spent 4 years on MR and participated 4 projects.
 
       - layout: left
-        title: IBS, Center for Cognition and Sociality
+        title: Institute for Basic Science 
         link: https://pr.ibs.re.kr/handle/8788114/1
         sub_title: UST Intern Program
         caption: July, 2019 ~ August, 2019 
         description: | # this will include new lines to allow paragraphs
-            BS major
+            BS major, Center for Cognition and Sociality
   
   ############################################# Publications #############################################
   - title: Publications
