@@ -53,6 +53,19 @@ about_content: | # this will include new lines to allow paragraphs
   I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
 
 content:
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: Korea Advanced Institute of Science and Technology (KAIST)
+        caption: 2017 - 2021
+        sub_title: B.S. in Computer Science and Biology
+
+      - layout: top-middle
+        title: Korea Advanced Institute of Science and Technology (KAIST)
+        caption: 2021 - Progressing (Graduation scheduled in August 2023)
+        sub_title: M.S. in Computer Science
+
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -76,33 +89,16 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: The Boring Company
-        link: boringcompany.com
+        title: CDSN Lab
+        link: http://cds.kaist.ac.kr/
         # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
-        caption: November 2017 - Present
+        sub_title: M.S. Program 
+        caption: September 2021 - Present
         quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+          We design 'Urban Space Robot', an autonomic computing platform for IoT-enabled smart city. It (1) proactively builds a knowledge base on urban citizens’ intentions, (2) enables edge IoTs to collaborate for optimized urban services, (3) and autonomously evolves according to user feedbacks.
         description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
-
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: top-middle
-        title: Korea Advanced Institute of Science and Technology (KAIST)
-        caption: 2017 - 2021
-        sub_title: B.S. in Computer Science and Biology
-        # quote: >
-        #   Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
-        # description: | # this will include new lines to allow paragraphs
-        #   During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
-
-        #   I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
-      - layout: top-middle
-        title: Korea Advanced Institute of Science and Technology (KAIST)
-        caption: 2021 - Progressing (Graduation scheduled in August 2023)
-        sub_title: M.S. in Computer Science
+            As a master student, I studyed IoT-based smart service. The main research point was RL-based preference learning system in IoT-enriched space; system that captures user's personalized preference from interaction between user and space, and provides user preferable environmental state.
+            In addtion, I adopted the mobile service robot as a tool to increase the space intelligence for capturing more accurate user preference.
 
 
 
