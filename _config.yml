@@ -56,13 +56,20 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Korea Advanced Institute of Science and Technology (KAIST)
-        caption: 2017 - 2021
-        sub_title: B.S. in Computer Science and Biology
+        sub_title: Korea Advanced Institute of Science and Technology (KAIST)
+        caption: B.S. in Computer Science and Biology
+        description: 2017 - 2021
+        
 
       - layout: left
         sub_title: Korea Advanced Institute of Science and Technology (KAIST)
         caption: M.S. in Computer Science
+        description: 2021 - Present (scheduled in August 2023)
+
+      - layout: left
+        sub_title: Korea Advanced Institute of Science and Technology (KAIST)
+        quote: >
+          M.S. in Computer Science
         description: 2021 - Present (scheduled in August 2023)
         
 
