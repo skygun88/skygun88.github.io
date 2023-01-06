@@ -62,8 +62,9 @@ content:
 
       - layout: left
         sub_title: Korea Advanced Institute of Science and Technology (KAIST)
-        caption: 2021 - Present (scheduled in August 2023)
-        description: M.S. in Computer Science
+        caption: M.S. in Computer Science
+        description: 2021 - Present (scheduled in August 2023)
+        
 
       # - layout: top-middle
       #   title: Korea Advanced Institute of Science and Technology (KAIST)
