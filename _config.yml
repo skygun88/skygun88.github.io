@@ -69,21 +69,21 @@ content:
   - title: Skills # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: left
+      - layout: top-middle
         title: Programming Language
         # caption: 2017 - 2021
         # sub_title: B.S. in Computer Science and Biology
         description: |
           (Proficient) Python, C, SQL, MATLAB, (Experienced) C++, Scala, Kotlin, Java 
 
-      - layout: left
+      - layout: top-middle
         title: Frameworks/Tools
         # caption: 2017 - 2021
         # sub_title: B.S. in Computer Science and Biology
         description: |
           (Proficient) PyTorch, Django, ROS2, Git, MongoDB, (Experienced) Docker, Unity, Keras, Tensorflow v2
       
-      - layout: left
+      - layout: top-middle
         title: Techniques
         # caption: 2017 - 2021
         # sub_title: B.S. in Computer Science and Biology
