@@ -48,9 +48,7 @@ linkedin_username: 건-김-a593bb24b
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
-
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  Hi, my name's Geon
 
 content:
   - title: Education # Title for the section
@@ -69,22 +67,22 @@ content:
   - title: Skills # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: top-middle
-        title: Programming Language
+      - layout: left
+        sub_title: Programming Language
         # caption: 2017 - 2021
         # sub_title: B.S. in Computer Science and Biology
         description: |
           (Proficient) Python, C, SQL, MATLAB, (Experienced) C++, Scala, Kotlin, Java 
 
-      - layout: top-middle
-        title: Frameworks/Tools
+      - layout: left
+        sub_title: Frameworks/Tools
         # caption: 2017 - 2021
         # sub_title: B.S. in Computer Science and Biology
         description: |
           (Proficient) PyTorch, Django, ROS2, Git, MongoDB, (Experienced) Docker, Unity, Keras, Tensorflow v2
       
-      - layout: top-middle
-        title: Techniques
+      - layout: left
+        sub_title: Techniques
         # caption: 2017 - 2021
         # sub_title: B.S. in Computer Science and Biology
         description: |
