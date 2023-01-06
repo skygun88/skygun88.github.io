@@ -119,6 +119,17 @@ content:
         description: | # this will include new lines to allow paragraphs
             As a master student, I studyed IoT-based smart service. The main research point was RL-based preference learning system in IoT-enriched space; system that captures user's personalized preference from interaction between user and space, and provides user preferable environmental state.
             In addtion, I adopted the mobile service robot as a tool to increase the space intelligence for capturing more accurate user preference.
+
+      - layout: left
+        title: Microrobot Research (MR)
+        link: https://mr.kaist.ac.kr/
+        # link_text: boringcompany.com
+        sub_title: KAIST Robotics Club
+        caption: 2017 - 2021
+        quote: >
+         This is KAIST robotics club for undergraduate students. 
+        description: | # this will include new lines to allow paragraphs
+            I spent 4 years on MR and participated 4 projects. 
   
   ############################################# Publications #############################################
   - title: Publications
@@ -132,11 +143,6 @@ content:
     layout: text
     content: | # this will include new lines to allow paragraphs
       -  KCC2021 학부생/주니어논문경진대회, 사물인터넷 부문, 우수상, 2021
-  
-  - title: Extracurricular Activities
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      - KAIST Robotics Club - Microrobot Research (MR), 2017 - 2021
 
   # - title: A Little More About Me
   #   layout: text
