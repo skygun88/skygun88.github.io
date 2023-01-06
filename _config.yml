@@ -8,7 +8,7 @@ version: 2
 # Personal info
 name: Geon Kim
 title: IoT-based Smart System Researcher
-email: kimgun472@gmail.com
+email: kimgun472@gmail.com / skygun88@kaist.ac.kr
 website: skygun88.github.io
 
 # Dark Mode (true/false/never)
@@ -141,6 +141,7 @@ content:
 
           - G. Kim, H. Kim, and D. Lee, “A deep reinforcement learning based approach for user preference learning in a smart space”, in 2021 한국컴퓨터종합학술대회 (KCC2021), 2021
 
+  ############################################# Awards #############################################
   - title: Scholarships and Awards
     layout: text
     content: | # this will include new lines to allow paragraphs
