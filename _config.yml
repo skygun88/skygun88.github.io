@@ -99,8 +99,6 @@ content:
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
           I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
 
@@ -114,8 +112,6 @@ content:
         # link_text: boringcompany.com
         sub_title: M.S. Program 
         caption: September 2021 - Present
-        quote: >
-          We design 'Urban Space Robot', an autonomic computing platform for IoT-enabled smart city. It (1) proactively builds a knowledge base on urban citizens’ intentions, (2) enables edge IoTs to collaborate for optimized urban services, (3) and autonomously evolves according to user feedbacks.
         description: | # this will include new lines to allow paragraphs
             As a master student, I studyed IoT-based smart service. The main research point was RL-based preference learning system in IoT-enriched space; system that captures user's personalized preference from interaction between user and space, and provides user preferable environmental state.
             In addtion, I adopted the mobile service robot as a tool to increase the space intelligence for capturing more accurate user preference.
