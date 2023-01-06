@@ -69,18 +69,18 @@ content:
   - title: Skills # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: left
-        sub_title: Programming Language
+      - layout: top
+        title: Programming Language
         description: |
           (Proficient) Python, C, SQL, MATLAB, (Experienced) C++, Scala, Kotlin, Java 
 
-      - layout: left
-        sub_title: Frameworks/Tools
+      - layout: top
+        title: Frameworks/Tools
         description: |
           (Proficient) PyTorch, Django, ROS2, Git, MongoDB, (Experienced) Docker, Unity, Keras, Tensorflow v2
       
-      - layout: left
-        sub_title: Techniques
+      - layout: top
+        title: Techniques
         description: |
           Reinforcement Learning, Deep Learning, RestAPI, MQTT
 
