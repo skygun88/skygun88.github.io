@@ -68,7 +68,7 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        sub_title: Programming Language
+        sub_title: <b>Programming Language</b>
         # caption: 2017 - 2021
         # sub_title: B.S. in Computer Science and Biology
         description: |
@@ -121,7 +121,13 @@ content:
         description: | # this will include new lines to allow paragraphs
             As a master student, I studyed IoT-based smart service. The main research point was RL-based preference learning system in IoT-enriched space; system that captures user's personalized preference from interaction between user and space, and provides user preferable environmental state.
             In addtion, I adopted the mobile service robot as a tool to increase the space intelligence for capturing more accurate user preference.
-
+  
+  - title: Publications
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      [1] G. Kim, H. Kim, D. Lee, and Y. Kim, “Dqn based indoor thermal control for activity-specific user preference”, in 2022 한국컴퓨터종합학술대회 (KCC2022), 2022.
+      [2] S. Han, J. Kim, G. Kim, J. Cho, J. Kim, and S. Yoo, “Preliminary evaluation of path-aware crossover operators for search-based test data generation for autonomous driving”, in 2021 IEEE/ACM 14th International Workshop on Search-Based Software Testing (SBST), 2021.
+      [3] G. Kim, H. Kim, and D. Lee, “A deep reinforcement learning based approach for user preference learning in a smart space”, in 2021 한국컴퓨터종합학술대회 (KCC2021), 2021
 
 
   - title: A Little More About Me
@@ -133,8 +139,8 @@ content:
       - Knitting
       - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
 
-      # Look at this cool image  
-      # ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+    # Look at this cool image  
+    # ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
 
 # Footer
 footer_show_references: true
