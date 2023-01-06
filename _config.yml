@@ -122,18 +122,23 @@ content:
         # link_text: boringcompany.com
         sub_title: KAIST Robotics Club
         caption: 2017 - 2021
-        quote: >
-         This is KAIST robotics club for undergraduate students. 
         description: | # this will include new lines to allow paragraphs
             I spent 4 years on MR and participated 4 projects. 
   
   ############################################# Publications #############################################
   - title: Publications
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      - G. Kim, H. Kim, D. Lee, and Y. Kim, “Dqn based indoor thermal control for activity-specific user preference”, in 2022 한국컴퓨터종합학술대회 (KCC2022), 2022. 
-      - S. Han, J. Kim, G. Kim, J. Cho, J. Kim, and S. Yoo, “Preliminary evaluation of path-aware crossover operators for search-based test data generation for autonomous driving”, in 2021 IEEE/ACM 14th International Workshop on Search-Based Software Testing (SBST), 2021.
-      - G. Kim, H. Kim, and D. Lee, “A deep reinforcement learning based approach for user preference learning in a smart space”, in 2021 한국컴퓨터종합학술대회 (KCC2021), 2021
+    layout: list
+    content: # this will include new lines to allow paragraphs
+      - layout: top
+        title: International Conferences
+        description: |
+          - S. Han, J. Kim, G. Kim, J. Cho, J. Kim, and S. Yoo, “Preliminary evaluation of path-aware crossover operators for search-based test data generation for autonomous driving”, in 2021 IEEE/ACM 14th International Workshop on Search-Based Software Testing (SBST), 2021.
+      
+      - layout: top
+        title: Domestic Conferences
+        description: |
+        - G. Kim, H. Kim, D. Lee, and Y. Kim, “Dqn based indoor thermal control for activity-specific user preference”, in 2022 한국컴퓨터종합학술대회 (KCC2022), 2022. 
+        - G. Kim, H. Kim, and D. Lee, “A deep reinforcement learning based approach for user preference learning in a smart space”, in 2021 한국컴퓨터종합학술대회 (KCC2021), 2021
 
   - title: Scholarships and Awards
     layout: text
