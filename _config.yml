@@ -102,6 +102,8 @@ content:
         description: | # this will include new lines to allow paragraphs
           I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
 
+          
+
   ############################################# Experience #############################################
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
@@ -109,7 +111,6 @@ content:
       - layout: left
         title: CDSN Lab
         link: http://cds.kaist.ac.kr/
-        # link_text: boringcompany.com
         sub_title: M.S. Program 
         caption: September 2021 - Present
         description: | # this will include new lines to allow paragraphs
@@ -119,7 +120,6 @@ content:
       - layout: left
         title: Microrobot Research
         link: https://mr.kaist.ac.kr/
-        # link_text: boringcompany.com
         sub_title: KAIST Robotics Club
         caption: 2017 - 2021
         description: | # this will include new lines to allow paragraphs
@@ -137,8 +137,9 @@ content:
       - layout: top
         title: Domestic Conferences
         description: |
-        - G. Kim, H. Kim, D. Lee, and Y. Kim, “Dqn based indoor thermal control for activity-specific user preference”, in 2022 한국컴퓨터종합학술대회 (KCC2022), 2022. 
-        - G. Kim, H. Kim, and D. Lee, “A deep reinforcement learning based approach for user preference learning in a smart space”, in 2021 한국컴퓨터종합학술대회 (KCC2021), 2021
+          - G. Kim, H. Kim, D. Lee, and Y. Kim, “Dqn based indoor thermal control for activity-specific user preference”, in 2022 한국컴퓨터종합학술대회 (KCC2022), 2022. 
+          
+          - G. Kim, H. Kim, and D. Lee, “A deep reinforcement learning based approach for user preference learning in a smart space”, in 2021 한국컴퓨터종합학술대회 (KCC2021), 2021
 
   - title: Scholarships and Awards
     layout: text
