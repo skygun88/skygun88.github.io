@@ -48,7 +48,10 @@ linkedin_username: 건-김-a593bb24b
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Geon
+  Hi, my name's Geon. I am a graduate student currently studying a master's degree in CS major at KAIST. 
+
+  It is imcomplete resume (Currently scripting)
+
 
 content:
   ############################################# Education #############################################
@@ -89,6 +92,21 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
+        title: Project template
+        link: https://github.com/skygun88/skygun88.github.io
+        # link_text: Project Website
+        additional_links:
+          - title:  incomplete (progressing)
+            icon: fab fa-github
+            url: https://github.com/skygun88/skygun88.github.io
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        description: | # this will include new lines to allow paragraphs
+          Projects will be added.
+
+          
+      - layout: top-middle
         title: Super awesome project
         link: github.com/sproogen
         # link_text: Project Website
@@ -102,7 +120,6 @@ content:
         description: | # this will include new lines to allow paragraphs
           I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
 
-          
 
   ############################################# Experience #############################################
   - title: Experience # Title for the section
@@ -123,7 +140,7 @@ content:
         sub_title: KAIST Robotics Club
         caption: 2017 - 2021
         description: | # this will include new lines to allow paragraphs
-            I spent 4 years on MR and participated 4 projects.
+            I spent 4 years on MR and participated 4 projects. (will be added)
 
       - layout: left
         title: Institute for Basic Science 
@@ -131,7 +148,7 @@ content:
         sub_title: UST Intern Program
         caption: July, 2019 ~ August, 2019 
         description: | # this will include new lines to allow paragraphs
-            BS major, Center for Cognition and Sociality
+            BS major, Center for Cognition and Sociality (will be added)
   
   ############################################# Publications #############################################
   - title: Publications
