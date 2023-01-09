@@ -145,12 +145,22 @@ content:
             I spent 4 years on MR and participated 4 projects. (will be added)
 
       - layout: left
-        title: Institute for Basic Science 
-        link: https://pr.ibs.re.kr/handle/8788114/1
-        sub_title: UST Intern Program
+        title: 2019 ZERO01NE DAY <CREATOR CAMP>
+        link: https://zer01ne.zone/en/zer01ne-day/
+        sub_title: UST Intern Program on IBS
+        caption: Agust, 2019
+        description: | # this will include new lines to allow paragraphs
+            Robot Project in MR (will be added)
+
+      - layout: left
+        title: 2019 UST Research Internship  
+        link: http://intern.ust.ac.kr
+        sub_title: UST Intern Program on IBS
         caption: July, 2019 ~ August, 2019 
         description: | # this will include new lines to allow paragraphs
             BS major, Center for Cognition and Sociality (will be added)
+
+      
   
   ############################################# Publications #############################################
   - title: Publications
