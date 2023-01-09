@@ -8,10 +8,8 @@ version: 2
 # Personal info
 name: Geon Kim
 title: IoT-based Smart System Researcher
-email: |
-  kimgun472@gmail.com 
-  
-  skygun88@kaist.ac.kr
+email 1: kimgun472@gmail.com   
+email 2: skygun88@kaist.ac.kr
 website: skygun88.github.io
 
 # Dark Mode (true/false/never)
