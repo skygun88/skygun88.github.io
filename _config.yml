@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Geon Kim
-title: IoT-based Smart System Researcher
+title: Researcher for IoT-based System Engineering 
 email: |
   kimgun472@gmail.com, 
   skygun88@kaist.ac.kr
@@ -93,19 +93,21 @@ content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: top-middle
+      - layout: left
         title: Project template
-        link: https://github.com/skygun88/skygun88.github.io
+        sub_title: brief project description
+        caption: 2019
+        # link: https://github.com/skygun88/skygun88.github.io
         # link_text: Project Website
         additional_links:
           - title:  incomplete (progressing)
             icon: fab fa-github
             url: https://github.com/skygun88/skygun88.github.io
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         description: | # this will include new lines to allow paragraphs
           Projects will be added.
+          - Language: Python, Java, Kotlin 
+          - Framework & Library: OpenCV, Pytorch 
+          - Role: System Design
 
           
       # - layout: top-middle
