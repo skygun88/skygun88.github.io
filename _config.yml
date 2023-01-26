@@ -103,7 +103,7 @@ content:
         # link: https://github.com/skygun88/IBS_EMG_onset_Analysis
         # link_text: Project Website
         additional_links:
-          - title:  Github repository for EMG Onset  
+          - title: Github repository  
             icon: fab fa-github
             url: https://github.com/skygun88/IBS_EMG_onset_Analysis
         description: | # this will include new lines to allow paragraphs
@@ -116,14 +116,38 @@ content:
         title: Atess
         sub_title: A project for enhancing the existing testing road generator for autonomous driving 
         caption: Python, MATLAB / Simulink, Socket
-        # link: https://github.com/skygun88/IBS_EMG_onset_Analysis
-        # link_text: Project Website
         additional_links:
-          - title:  Github repository for EMG Onset  
+          - title: Conference paper  
             icon: fas fa-link
             url: https://ieeexplore.ieee.org/document/9476236
         description: | # this will include new lines to allow paragraphs
           Result of this paper is published in 2021 SBST. The goal of this project is to enhance search-based testing road generator for autonomous driving (AsFault).
+      
+      - layout: left
+        title: Emotion Joy
+        sub_title: A project for designing the emotional interacting robot using vision and text processing.
+        caption: Python, Arduino / OpenCV, Pytorch, PyQt5
+        additional_links:
+          - title: Github repository
+            icon: fab fa-github
+            url: https://github.com/skygun88/emotionSender_KROC
+        description: | # this will include new lines to allow paragraphs
+          The goal of this project is to design the emotional interacting robot that can assist emotional interaction in text message, and show sympathy by recognizing user's facial experssion.
+
+      
+      - layout: left
+        title: Hair Changer
+        sub_title: A project for designing mobile hair change application using modern deepfake techniques
+        caption: Python, Kotlin, Java / OpenCV, Tensorflow v2, Django, Sqlite3
+        additional_links:
+          - title: Github repository
+            icon: fab fa-github
+            url: https://github.com/jjm7307/HairChanger
+          - title: Github repository
+            icon: fab fa-github
+            url: https://github.com/skygun88/HairChangerBackend
+        description: | # this will include new lines to allow paragraphs
+          This is a project for a undergraduate lecture in KAIST. The goal of this project is to design mobile hair change application using modern deepfake techniques.
 
   ############################################# Experience #############################################
   - title: Experience # Title for the section
