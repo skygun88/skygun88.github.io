@@ -85,7 +85,7 @@ content:
       - layout: top
         title: Frameworks/Tools
         description: |
-          (Proficient) PyTorch, Django, ROS2, Git, MongoDB, (Experienced) Docker, Unity, Keras, Tensorflow v2
+          (Proficient) PyTorch, Django, ROS2, Git, MySQL, MongoDB, (Experienced) Docker, Unity, Keras, Tensorflow v2
       
       - layout: top
         title: Techniques
@@ -97,26 +97,10 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Project template
-        sub_title: brief project description
-        caption: 2019
-        # link: https://github.com/skygun88/skygun88.github.io
-        # link_text: Project Website
-        additional_links:
-          - title:  incomplete (progressing)
-            icon: fab fa-github
-            url: https://github.com/skygun88/skygun88.github.io
-        description: | # this will include new lines to allow paragraphs
-          Projects will be added.
-          - Language: Python, Java, Kotlin 
-          - Framework & Library: OpenCV, Pytorch 
-          - Role: System Design
-
-      - layout: left
         title: EMG Onset Analysis
         sub_title: A project for benchmarking methods to estimate onset of muscular reaction from EMG signal 
-        caption: 2019
-        # link: https://github.com/skygun88/skygun88.github.io
+        caption: MATLAB / EEGLAB toolbox
+        # link: https://github.com/skygun88/IBS_EMG_onset_Analysis
         # link_text: Project Website
         additional_links:
           - title:  Github repository for EMG Onset  
@@ -127,12 +111,19 @@ content:
           The lab was previously burdened with manually annotating these points, so they need the assistant tool that can annotate at a human level of accuracy. 
           I focused on finding the best method for estimating the onset point of muscular reaction from EMG signals by comparing four different algorithms (Linear Envelope, TKEO, Sample Entropy, Integrated Profile) in terms of their Mean Squared Error (MSE) between the estimated point and ground truth, as well as their running time. 
           Additionally, I created a GUI-based interface to make it easy for researchers to use the estimation method.
-          - Language: Matlab
-          - Framework & Library: EEGLAB toolbox 
-          - Role: Method and GUI implementation & Method analysis  
-
           
-
+      - layout: left
+        title: Atess
+        sub_title: A project for enhancing the existing testing road generator for autonomous driving 
+        caption: Python, MATLAB / Simulink, Socket
+        # link: https://github.com/skygun88/IBS_EMG_onset_Analysis
+        # link_text: Project Website
+        additional_links:
+          - title:  Github repository for EMG Onset  
+            icon: fas fa-link
+            url: https://ieeexplore.ieee.org/document/9476236
+        description: | # this will include new lines to allow paragraphs
+          Result of this paper is published in 2021 SBST. The goal of this project is to enhance search-based testing road generator for autonomous driving (AsFault).
 
   ############################################# Experience #############################################
   - title: Experience # Title for the section
