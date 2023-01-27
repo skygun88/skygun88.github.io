@@ -11,7 +11,7 @@ title: Researcher for IoT-based System Engineering
 email: |
   kimgun472@gmail.com, 
   skygun88@kaist.ac.kr
-website: skygun88.github.io
+website: https://raw.githubusercontent.com/skygun88/skygun88.github.io/master/materials/ust_report.pdf
 
 # Dark Mode (true/false/never)
 darkmode: false
@@ -85,7 +85,7 @@ content:
       - layout: top
         title: Frameworks/Tools
         description: |
-          (Proficient) PyTorch, Django, ROS2, Git, MySQL, MongoDB, (Experienced) Docker, Unity, Keras, Tensorflow v2
+          (Proficient) PyTorch, Django, Git, MySQL, MongoDB, (Experienced) ROS2, Docker, Unity, Keras, Tensorflow v2
       
       - layout: top
         title: Techniques
@@ -106,6 +106,9 @@ content:
           - title: Github repository  
             icon: fab fa-github
             url: https://github.com/skygun88/IBS_EMG_onset_Analysis
+          - title: Report
+            icon: far fa-file-pdf
+            url: materials/ust_report.pdf
         description: | # this will include new lines to allow paragraphs
           The goal of this project is to develop a research assistant tool for a neuro-science laboratory that will automatically annotate the onset point of a rat's muscular reaction when stimulated. 
           The lab was previously burdened with manually annotating these points, so they need the assistant tool that can annotate at a human level of accuracy. 
@@ -113,16 +116,24 @@ content:
           Additionally, I created a GUI-based interface to make it easy for researchers to use the estimation method.
           
       - layout: left
-        title: Atess
-        sub_title: A project for enhancing the existing testing road generator for autonomous driving 
+        title: ATeSS
+        sub_title: A project for enhancing the test-road generation for autonomous driving 
         caption: Python, MATLAB / Simulink, Socket
         additional_links:
-          - title: Conference paper  
+          - title: Github repository for original project
+            icon: fab fa-github
+            url: https://github.com/shhan1755/CS454-Final-Project
+          - title: Workshop paper for revised version 
             icon: fas fa-link
             url: https://ieeexplore.ieee.org/document/9476236
         description: | # this will include new lines to allow paragraphs
-          Result of this paper is published in 2021 SBST. The goal of this project is to enhance search-based testing road generator for autonomous driving (AsFault).
-      
+          The original project was for an undergraduate lecture at KAIST. But, reivsed version was published in 2021 SBST.
+          The goal of this project is to enhance existing search-based testing road generator for autonomous driving (AsFault).
+          We improved AsFault by designing new crossover operators and proposing our new system test, Automatic Test Data Generator System for Self-Driving Car (ATeSS). 
+          ATeSS can generate more challenging road maps than before.
+          My works in this project are as follows. 1) overall system design and implementation, 2) implementation of road generation library for search-based algorithm, and 3) communication protocol design between road generator and Simulink-based autonomous driving simulator. 
+          Road generation library is implemented by `Procedural Content Generation (PCG)`, and communication is based on `TCP/IP` socket protocols.
+
       - layout: left
         title: Emotion Joy
         sub_title: A project for designing the emotional interacting robot using vision and text processing.
@@ -140,7 +151,7 @@ content:
         sub_title: A project for designing mobile hair change application using modern deepfake techniques
         caption: Python, Kotlin, Java / OpenCV, Tensorflow v2, Django, Sqlite3
         additional_links:
-          - title: Github repository
+          - title: Github repositorys
             icon: fab fa-github
             url: https://github.com/jjm7307/HairChanger
           - title: Github repository
@@ -170,8 +181,11 @@ content:
         sub_title: M.S. Program 
         caption: 2021 - Present
         description: | # this will include new lines to allow paragraphs
-            As a master student, I studyed IoT-based smart service. The main research point was RL-based preference learning system in IoT-enriched space; system that captures user's personalized preference from interaction between user and space, and provides user preferable environmental state.
-            In addtion, I adopted the mobile service robot as a tool to increase the space intelligence for capturing more accurate user preference.
+            As a master's student, my focus of study was IoT-based smart services. 
+            My main research was on a RL-based preference learning system in an IoT-enriched space; 
+            a system that captures users' personalized preferences from their interactions with the space and provides them with a preferable environmental state. 
+            Additionally, I utilized a mobile service robot as a tool to enhance the intelligence of the space for more accurate user preference capture. 
+            In this regard, I have implemented a robot-incorporated distributed IoT system and have been designing a robot-IoT cooperative service for preference learning.
 
       - layout: left
         title: Microrobot Research
@@ -221,14 +235,6 @@ content:
     content: | # this will include new lines to allow paragraphs
       -  KCC2021 학부생/주니어논문경진대회, 사물인터넷 부문, 우수상, 2021
 
-  # - title: A Little More About Me
-  #   layout: text
-  #   content: | # this will include new lines to allow paragraphs
-  #     Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-  #     - Rock climbing
-  #     - Gaming
-  #     - Knitting
-  #     - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
 
 
 # Footer
