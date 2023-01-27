@@ -1,4 +1,8 @@
 # CV for Geon Kim
+## 
+Github Page Link
+[CV Link](skygun88.github.io)
+
 ## Jekyll testing code in local environment
 ```bash
 bundle exec jekyll serve

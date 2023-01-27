@@ -149,6 +149,17 @@ content:
         description: | # this will include new lines to allow paragraphs
           This is a project for a undergraduate lecture in KAIST. The goal of this project is to design mobile hair change application using modern deepfake techniques.
 
+      - layout: left
+        title: CallForYou
+        sub_title: A project for designing an interface for a convenient phone call application
+        caption: Python, Kotlin / OpenCV, PyTorch, Django, Sqlite3
+        additional_links:
+          - title: Github repository
+            icon: fab fa-github
+            url: https://github.com/skygun88/CS584-Webserver
+        description: | # this will include new lines to allow paragraphs
+          This is a project for a graduate lecture in KAIST. The goal of this project is to design an interface for a convenient phone call application when user calls unfamiliar number.
+
   ############################################# Experience #############################################
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
