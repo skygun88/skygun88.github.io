@@ -1,6 +1,6 @@
 # CV for Geon Kim
 ## Github Page Link
-[CV Link](skygun88.github.io)
+https://skygun88.github.io
 
 ## Jekyll testing code in local environment
 ```bash
@@ -10,5 +10,5 @@ bundle exec jekyll serve
 https://docs.github.com/ko/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll 
 
 ## Useful links
-* [Icon examples](https://aksakalli.github.io/jekyll-doc-theme/docs/font-awesome/)
-* [Icon categories](https://github.com/sylvainmetayer/jekyll-fontawesome-svg/tree/master/lib/jekyll/fontawesome/svg/assets/fa_svgs)
+1. [Icon examples](https://aksakalli.github.io/jekyll-doc-theme/docs/font-awesome/)
+2. [Icon categories](https://github.com/sylvainmetayer/jekyll-fontawesome-svg/tree/master/lib/jekyll/fontawesome/svg/assets/fa_svgs)
