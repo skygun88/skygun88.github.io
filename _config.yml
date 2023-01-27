@@ -11,7 +11,7 @@ title: Researcher for IoT-based System Engineering
 email: |
   kimgun472@gmail.com, 
   skygun88@kaist.ac.kr
-website: https://raw.githubusercontent.com/skygun88/skygun88.github.io/master/materials/ust_report.pdf
+website: skygun88.github.io
 
 # Dark Mode (true/false/never)
 darkmode: false
@@ -106,9 +106,9 @@ content:
           - title: Github repository  
             icon: fab fa-github
             url: https://github.com/skygun88/IBS_EMG_onset_Analysis
-          - title: Report
+          - title: Summary Report
             icon: far fa-file-pdf
-            url: materials/ust_report.pdf
+            url: https://github.com/skygun88/skygun88.github.io/blob/master/materials/ust_report.pdf
         description: | # this will include new lines to allow paragraphs
           The goal of this project is to develop a research assistant tool for a neuro-science laboratory that will automatically annotate the onset point of a rat's muscular reaction when stimulated. 
           The lab was previously burdened with manually annotating these points, so they need the assistant tool that can annotate at a human level of accuracy. 
@@ -126,6 +126,7 @@ content:
           - title: Workshop paper for revised version 
             icon: fas fa-link
             url: https://ieeexplore.ieee.org/document/9476236
+          
         description: | # this will include new lines to allow paragraphs
           The original project was for an undergraduate lecture at KAIST. But, reivsed version was published in 2021 SBST.
           The goal of this project is to enhance existing search-based testing road generator for autonomous driving (AsFault).
@@ -157,6 +158,12 @@ content:
           - title: Github repository
             icon: fab fa-github
             url: https://github.com/skygun88/HairChangerBackend
+          - title: Summary Report
+            icon: far fa-file-pdf
+            url: https://github.com/skygun88/skygun88.github.io/blob/master/materials/hair_report1.pdf
+          - title: Technical Report
+            icon: far fa-file-pdf
+            url: https://github.com/skygun88/skygun88.github.io/blob/master/materials/hair_report2.pdf
         description: | # this will include new lines to allow paragraphs
           This is a project for a undergraduate lecture in KAIST. The goal of this project is to design mobile hair change application using modern deepfake techniques.
 
@@ -168,6 +175,9 @@ content:
           - title: Github repository
             icon: fab fa-github
             url: https://github.com/skygun88/CS584-Webserver
+          - title: Summary Report
+            icon: far fa-file-pdf
+            url: https://github.com/skygun88/skygun88.github.io/blob/master/materials/callforyou_report.pdf
         description: | # this will include new lines to allow paragraphs
           This is a project for a graduate lecture in KAIST. The goal of this project is to design an interface for a convenient phone call application when user calls unfamiliar number.
 
