@@ -203,7 +203,10 @@ content:
         sub_title: KAIST Robotics Club
         caption: 2017 - 2021
         description: | # this will include new lines to allow paragraphs
-            I spent 4 years on MR and participated 4 projects. (will be added)
+            I was a member of the KAIST robotics club, Microrobot Research (MR) during my undergrad. 
+            In the club, I gained skills and knowledge in for robot development like sensor & actuator technology, electronic circuit design, 2D & 3D modeling, and Arduino programming. 
+            I worked on four projects including 1) a maze-escaping robot, 2) an emotion-expressing robot, 3) an emotional interaction robot, and 4) an AR interface development. 
+            Details of each project are written in **Projects** section.
 
       - layout: left
         title: 2019 ZER01NE DAY <CREATOR CAMP>
@@ -219,7 +222,9 @@ content:
         sub_title: Internship Program on IBS
         caption: July, 2019 ~ August, 2019 
         description: | # this will include new lines to allow paragraphs
-            BS major, Center for Cognition and Sociality (will be added)
+            During the summer of 2019, I participated in the UST Research Internship program. 
+            I interned at the Institute for Basic Science(IBS)'s Center for Cognition and Sociality and learned about neuroscience research. 
+            Specifically, I conducted biological experiments on rats and developed a research assistance program for the laboratory (**EMG onset analysis** in project sections).
 
       
   
