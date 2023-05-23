@@ -236,6 +236,7 @@ content:
         title: International Conferences
         description: |
           - S. Han, J. Kim, G. Kim, J. Cho, J. Kim, and S. Yoo, “Preliminary evaluation of path-aware crossover operators for search-based test data generation for autonomous driving”, in 2021 IEEE/ACM 14th International Workshop on Search-Based Software Testing (SBST), 2021.
+          - G. Kim et al., “Towards deployment of mobile robot driven preference learning for user-state-specific thermal control in a real-world smart space,” in Proceedings of the 38th ACM/SIGAPP Symposium on Applied Computing, 2023, pp. 724–731.
       
       - layout: top
         title: Domestic Conferences
