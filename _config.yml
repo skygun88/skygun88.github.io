@@ -172,7 +172,7 @@ content:
           This is a project for a undergraduate lecture in KAIST. The goal of this project is to design mobile hair change application using modern deepfake techniques. 
           The front end application provides users to take their face and desired hair style image to be changed. Then, our app send a hair change request to **Django**-based python backend server.  
           In the server, we used **FaceSwap** python library to exchange face of target hair image into user's requested face. Finally, result generated hair style changed images will be sent to users.
-          My works in this project are as follows. 1) Django-based webserver implementation, 2) API for frontend-backend communication
+          My works in this project are as follows. 1) Django-based webserver implementation, 2) API for frontend-backend communication.
 
       # - layout: left
       #   title: CallForYou
