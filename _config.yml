@@ -70,7 +70,7 @@ content:
 
       - layout: top
         title: Korea Advanced Institute of Science and Technology (KAIST)
-        caption: 2021 - Present (scheduled in August 2023)
+        caption: 2021 - 2023
         sub_title: M.S. in Computer Science
 
   ############################################# Skills #############################################
@@ -133,7 +133,7 @@ content:
           We improved AsFault by designing new crossover operators and proposing our new system test, Automatic Test Data Generator System for Self-Driving Car (ATeSS). 
           ATeSS can generate more challenging road maps than before.
           My works in this project are as follows. 1) overall system design and implementation, 2) implementation of road generation library for search-based algorithm, and 3) communication protocol design between road generator and Simulink-based autonomous driving simulator. 
-          Road generation library is implemented by `Procedural Content Generation (PCG)`, and communication is based on `TCP/IP` socket protocols.
+          Road generation library is implemented by **Procedural Content Generation (PCG)**, and communication is based on **TCP/IP** socket protocols.
 
       - layout: left
         title: Emotion Joy
@@ -144,7 +144,11 @@ content:
             icon: fab fa-github
             url: https://github.com/skygun88/emotionSender_KROC
         description: | # this will include new lines to allow paragraphs
-          The goal of this project is to design the emotional interacting robot that can assist emotional interaction in text message, and show sympathy by recognizing user's facial experssion.
+          The project aims to design an emotional interacting robot that assists in emotional interaction through text messages. 
+          It analyzes the emotional expression in incoming text messages using the **fastText** library, categorizes them into emotions, and represents them using LED matrix face and arm displays. 
+          Additionally, the robot detects the user's facial expressions through a connected webcam, recognizes their current emotion using a **CNN-based classifier**, and expresses the same emotion to show sympathy.
+          My works in this project are as follows. 1) overall system design and implementation, 2) Simple text message application for demo using **PyQt5**. 
+          3) Training of the CNN-based facial emotion classifier with opensource dataset using **PyTorch**, 4) **Arduino** programming execute robot movement and serial connection betwwen arduino and python script.
 
       
       - layout: left
@@ -165,21 +169,36 @@ content:
             icon: far fa-file-pdf
             url: https://github.com/skygun88/skygun88.github.io/blob/master/materials/hair_report2.pdf
         description: | # this will include new lines to allow paragraphs
-          This is a project for a undergraduate lecture in KAIST. The goal of this project is to design mobile hair change application using modern deepfake techniques.
+          This is a project for a undergraduate lecture in KAIST. The goal of this project is to design mobile hair change application using modern deepfake techniques. 
+          The front end application provides users to take their face and desired hair style image to be changed. Then, our app send a hair change request to **Django**-based python backend server.  
+          In the server, we used **FaceSwap** python library to exchange face of target hair image into user's requested face. Finally, result generated hair style changed images will be sent to users.
+          My works in this project are as follows. 1) Django-based webserver implementation, 2) API for frontend-backend communication
 
-      - layout: left
-        title: CallForYou
-        sub_title: A project for designing an interface for a convenient phone call application
-        caption: Python, Kotlin / OpenCV, PyTorch, Django, Sqlite3
-        additional_links:
-          - title: Github repository
-            icon: fab fa-github
-            url: https://github.com/skygun88/CS584-Webserver
-          - title: Summary Report
-            icon: far fa-file-pdf
-            url: https://github.com/skygun88/skygun88.github.io/blob/master/materials/callforyou_report.pdf
-        description: | # this will include new lines to allow paragraphs
-          This is a project for a graduate lecture in KAIST. The goal of this project is to design an interface for a convenient phone call application when user calls unfamiliar number.
+      # - layout: left
+      #   title: CallForYou
+      #   sub_title: A project for designing an interface for a convenient phone call application
+      #   caption: Python, Kotlin / OpenCV, PyTorch, Django, Sqlite3
+      #   additional_links:
+      #     - title: Github repository
+      #       icon: fab fa-github
+      #       url: https://github.com/skygun88/CS584-Webserver
+      #     - title: Summary Report
+      #       icon: far fa-file-pdf
+      #       url: https://github.com/skygun88/skygun88.github.io/blob/master/materials/callforyou_report.pdf
+      #   description: | # this will include new lines to allow paragraphs
+      #     This is a project for a graduate lecture in KAIST. The goal of this project is to design an interface for a convenient phone call application when user calls unfamiliar number.
+
+      # - layout: left
+      #   title: Minor projects
+      #   sub_title: Minor projects at undergraduate student
+      #   caption: Python, Kotlin / OpenCV, PyTorch, Django, Sqlite3
+      #   additional_links:
+      #     - title: Github repository
+      #       icon: fab fa-github
+      #       url: https://github.com/skygun88/CS584-Webserver
+      #   description: | # this will include new lines to allow paragraphs
+      #     These are projects when I was undergraudate student in KAIST. Some of them are projects for undergraduate lectures and others are projects for KAIST robotics club.
+
 
   ############################################# Experience #############################################
   - title: Experience # Title for the section
@@ -189,7 +208,7 @@ content:
         title: CDSN Lab
         link: http://cds.kaist.ac.kr/
         sub_title: M.S. Program 
-        caption: 2021 - Present
+        caption: 2021 - 2023
         description: | # this will include new lines to allow paragraphs
             As a master's student, my focus of study was IoT-based smart services. 
             My main research was on a RL-based preference learning system in an IoT-enriched space; 
@@ -234,7 +253,6 @@ content:
         title: Domestic Conferences
         description: |
           - G. Kim, H. Kim, D. Lee, and Y. Kim, “Dqn based indoor thermal control for activity-specific user preference”, in 2022 한국컴퓨터종합학술대회 (KCC2022), 2022. 
-
           - G. Kim, H. Kim, and D. Lee, “A deep reinforcement learning based approach for user preference learning in a smart space”, in 2021 한국컴퓨터종합학술대회 (KCC2021), 2021
 
   ############################################# Awards #############################################
