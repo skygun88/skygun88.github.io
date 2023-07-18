@@ -48,7 +48,7 @@ orcid_username: 0000-0002-3166-2432
 
 # About Section
 # about_title: About Me
-about_profile_image: images/profile.jpg
+about_profile_image: images/geon.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hello, my name is Geon Kim and I am a graduate student majoring in Computer Science at KAIST.
   Currently, I am affiliated with the CDSN Lab at KAIST, and my research interests include building IoT-based distributed systems for smart services. 
